@@ -17,6 +17,7 @@ jobs:
     - name: Autoformat README
       uses: cflynn07/github-action-til-autoformat-readme@1.2.0
       with:
-        description: [Jason Kim][1]의 성장일기
+        description: |
+          [Jason Kim][1]의 성장일기
         footer: |
           [1]: https://github.com/turquoiseluv
